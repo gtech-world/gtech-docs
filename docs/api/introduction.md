@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 # 介绍
 
-GTech 开放平台是为合作伙伴 (Partner) 的提供的平台，支持合作伙伴通过 API 接入 GTech 的云端业务系统。
+GTech 开放平台是为合作伙伴 (Partner) 提供的对接平台，支持合作伙伴通过 API 接入 GTech 的云端业务系统。
 
 如需开通帐号，请通过 [hi@gtech.world](mailto:hi@gtech.world) 联系我们。
 
