@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '吉特科技有限公司',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'GTech is cool',
   url: 'https://gtech.world',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -63,7 +63,7 @@ const config = {
             type: 'doc',
             docId: 'api/introduction',
             position: 'left',
-            label: 'Open API',
+            label: '开放平台',
           },
           {
             href: 'mailto:hi@gtech.world',
@@ -84,10 +84,10 @@ const config = {
           hideable: true,
         },
       },
-      tableOfContents: {
-        minHeadingLevel: 2,
-        maxHeadingLevel: 3,
-      },
+      // tableOfContents: {
+      //   minHeadingLevel: 2,
+      //   maxHeadingLevel: 3,
+      // },
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
