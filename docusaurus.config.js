@@ -13,7 +13,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
+  markdown: {
+    mermaid: true
+  },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gtech-world', // Usually your GitHub org/user name.
@@ -81,7 +83,7 @@ const config = {
       },
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
         },
       },
       // tableOfContents: {
@@ -100,10 +102,17 @@ const config = {
       metadata: [
         {name: 'description', content: '吉特科技有限公司，提供跨界数据解决方案：信任、透明、可追溯'}
       ],
+      mermaid: {
+        theme: {light: 'neutral', dark: 'forest'},
+        options: {
+          maxTextSize: 500,
+        },
+      },
     }),
   
     themes: [
       // ... Your other themes.
+      '@docusaurus/theme-mermaid',
       [
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
