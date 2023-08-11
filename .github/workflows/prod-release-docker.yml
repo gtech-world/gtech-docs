@@ -2,6 +2,9 @@ name: Prod Release to DockerHub
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
 
