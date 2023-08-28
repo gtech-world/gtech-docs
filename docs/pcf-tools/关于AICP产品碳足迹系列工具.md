@@ -1,13 +1,3 @@
----
-id: about-aicp-tools
-title: ''
-slug: /about-aicp-tools
-hide_table_of_contents: true
----
-<div style={{textAlign:'center', marginTop: '36px', marginLeft: '6%', marginRight: '6%'}}>
-
-<div style={{fontSize: '18px', fontWeight: 'normal', display: 'inline-block', textAlign: 'left'}}>
-
 # 关于AICP产品碳足迹系列工具
 
 ## 概念与术语
@@ -118,6 +108,3 @@ AICP为基于“实景数据”的长期碳足迹量化与管理提供了相应�
 该模块支持用户将待验证项授权给第三方验证方用户查看并验证碳足迹结果。例如，用户可以将他的某一项产品碳足迹结果连同《盘查报告》以及相关支持性材料授权给第三方认证机构进行查验。获取授权的第三方认证机构有权在授权范围内查验用户的待验证项内容，但无权更改待验证项本身的内容。
 
 获取授权的第三方认证机构可以在完成在线数据、材料、文档的查验，以及相匹配的线下核查工作后，在待验证项中变更验证状态，并上传相应的《核查报告》或其他适用的验证文档。
-</div>
-
-</div>

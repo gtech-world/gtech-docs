@@ -16,6 +16,7 @@ const config = {
   markdown: {
     mermaid: true
   },
+  staticDirectories: ['static'],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gtech-world', // Usually your GitHub org/user name.
