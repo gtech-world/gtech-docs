@@ -1,6 +1,6 @@
 ---
 id: newToken
-title: ''
+title: '生成 Token'
 hide_table_of_contents: false
 ---
 

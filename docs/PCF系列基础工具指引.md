@@ -1,3 +1,8 @@
+---
+slug: /
+hide_table_of_contents: true
+---
+
 # PCF系列基础工具指引
 
 - [关于AICP产品碳足迹系列工具](/pcf-tools/关于AICP产品碳足迹系列工具)

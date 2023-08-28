@@ -62,12 +62,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'api/introduction',
-            position: 'left',
-            label: '开放平台',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'api/introduction',
+          //   position: 'left',
+          //   label: '开放平台',
+          // },
           {
             href: 'mailto:hi@gtech.world',
             label: '联系我们',
