@@ -16,6 +16,18 @@ https://open.gtech.world/api/inventory/item/upload
 "Authorization": "Bearer <YOUR-TOKEN>"
 ```
 
+## 参数
+
+| 参数            | 描述               | 是否必传  | 类型        |
+|---------------|------------------|-------|-----------| 
+| loadName      | 碳足迹批次            | true  | string    |
+| productId     | 产品系统id           | true  | string    |
+| lcaParamList  | 实景数据列表           | false | jsonArray |
+| lcaParamList.processId | 产品系统模型实景数据参数流程id | true  | string    |
+| lcaParamList.paramValue | 产品系统模型实景数据参数值    | true  | number    |
+| lcaParamList.paramName | 产品系统模型实景数据参数名称   | true  | string    |
+| lcaParamList.processId | 产品系统模型实景数据参数产生时间 | true  | dateTime    |
+
 ## Body
 
 ```json

@@ -44,7 +44,7 @@ const sidebars = {
           type: "category",
           label: "API 列表",
           collapsed: false,
-          items: ["api/newToken", "api/uploadModel", "api/uploadModelParams"],
+          items: ["api/newToken", "api/uploadModelParams"],
         },
       ],
     },
