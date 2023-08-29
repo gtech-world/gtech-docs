@@ -7,14 +7,14 @@ hide_table_of_contents: false
 ## URL
 
 ```
-https://open.gtech.world/api/v1/newToken
+https://open.gtech.world/api/base/newToken
 ```
 
 ## 参数
 
 | 参数  | 描述 | 是否必传 | 类型 |
 | --- | --- | --- | --- | 
-| userName  | 用户名 | true | string |
+| name  | 用户名 | true | string |
 | password  | 密码 | true | string |
 
 ## 返回值
@@ -25,8 +25,9 @@ https://open.gtech.world/api/v1/newToken
   "message": "string",
   "code": 0,
   "data": {
-    "token": "v4ueNLEpPwMtmOPMBtOOeIQsvP8z9gkMgIVibTUVjkrNrlfra5CGwQkViDjO8jcc",
-    "expirationTime": 1689733668
+    ...
+    "loginToken": "string",
+    ...
   }
 }
 ```
@@ -34,5 +35,10 @@ https://open.gtech.world/api/v1/newToken
 ## 示例
 
 ```sh
-$ curl ...
+$ curl --location 'https://open.gtech.world/api/base/newToken' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name":"***",
+    "password": "***"
+}'
 ```

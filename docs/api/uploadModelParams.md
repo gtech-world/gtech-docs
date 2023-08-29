@@ -7,7 +7,7 @@ hide_table_of_contents: false
 ## URL
 
 ```
-https://open.gtech.world/api/v1/uploadModelParams
+https://open.gtech.world/api/inventory/item/upload
 ```
 
 ## Header
@@ -20,17 +20,14 @@ https://open.gtech.world/api/v1/uploadModelParams
 
 ```json
 {
-  "modelUUID": "string",
-  "loadNumber": "string",
-  "serialNumberList": [
-    "string"
-  ],
+  "productId": 1,
+  "loadName": "碳足迹批次n",
   "lcaParamList": [
     {
-      "processId": "string",
-      "paramValue": 0,
-      "paramName": "string",
-      "dateTime": "yyyy-MM-DD hh:mm:ss"
+      "processId": "41707610-7151-4dba-9038-5d0315a50a75",
+      "paramValue": 20000,
+      "paramName": "p1",
+      "dateTime": "2023-06-14 12:30:00"
     }
   ]
 }
@@ -44,7 +41,7 @@ https://open.gtech.world/api/v1/uploadModelParams
   "message": "string",
   "code": 0,
   "data": {
-
+    ...
   }
 }
 ```
@@ -53,5 +50,19 @@ https://open.gtech.world/api/v1/uploadModelParams
 ## 示例
 
 ```sh
-$ curl ...
+$ curl --location 'https://open.gtech.world/api/inventory/item/upload' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer ****' \
+--data '{
+  "productId": 1,
+  "loadName": "碳足迹批次n",
+  "lcaParamList": [
+    {
+      "processId": "41707610-7151-4dba-9038-5d0315a50a75",
+      "paramValue": 20000,
+      "paramName": "p1",
+      "dateTime": "2023-06-14 12:30:00"
+    }
+  ]
+}'
 ```

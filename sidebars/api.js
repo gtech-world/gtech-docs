@@ -17,11 +17,6 @@ exports.sidebar = [
       },
       {
         type: 'doc',
-        id: 'api/uploadModel',
-        label: '上传 Model'
-      },
-      {
-        type: 'doc',
         id: 'api/uploadModelParams',
         label: '上传 Model 参数'
       }
